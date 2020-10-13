@@ -1,0 +1,70 @@
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 3fr 1fr 2fr;
+
+}
+
+.box>div {
+  color: #FFFFFF;
+  padding: 20PX;
+
+}
+
+.one {
+  grid-column: 1 ;
+  grid-row: 1;
+  background-color: #b03532;
+
+}
+
+.two {
+  grid-column: 2 ;
+  grid-row: 1;
+  background-color: #33A8A5
+}
+
+.three {
+  grid-column:  3;
+  grid-row: 1;
+  background-color: #30997A
+}
+
+.four {
+  grid-column:  4 ;
+  grid-row: 1;
+  background-color: #6A478F
+}
+
+.five {
+  grid-column: 1 ;
+  grid-row: 2;
+  background-color: #DA6F2B
+}
+
+.six {
+  grid-column: 4 ;
+  grid-row: 2;
+  background-color: #3D8BB1
+}
+
+.seven {
+  grid-column: 1 ;
+  grid-row: 3;
+  background-color: #E03F3F
+}
+
+.height {
+  grid-column: 3 ;
+  grid-row: 3;
+  background-color: #59A627;
+
+}
+
+.nine {
+  grid-column: 4 ;
+  grid-row: 3;
+  background-color: #4464A1;
+
+}
